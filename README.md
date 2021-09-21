@@ -25,3 +25,16 @@ Statistical Analysis with R in a Manufacturing Environment
 - But another view of the data shown above, demonstrates some concern in one of the production lots. Lot 3 appears to skew the entire production test higher with a variance that exceeds the 100 points PSI metric that the manufacturing is looking to meet. 
 
 - In summary, the current manufacturing data states that the design specificactions are being met across all of the lots in total. However, this does not mean that each indivudal lot met the design specification. The results show that management should review the manufacturing procedures on the line that Lot 3 was produced. 
+
+
+## T-Tests on Suspension Coils
+
+- For this deliverable, we were asked to compare the PSI for each of the manufacturing lots against the Population mean to see if they significantly different. We used R to evaluate the data for a 1 Sample T-Test to compare our P-value against the .05 significance level. 
+
+![image](https://user-images.githubusercontent.com/84824391/134115136-bd995464-6961-4f56-b071-c0df70b8153f.png)
+
+- Our first review above, compared the entire data set against the population mean. With this T-test our p-Value is significantly below our significance level that we can reject our null hypothesis. 
+
+![image](https://user-images.githubusercontent.com/84824391/134115312-b8662e65-480e-444a-a689-61cbf2845a4b.png)
+
+- But just because the entire sample has a small p-Value, does not mean that each Lot split up may be too. However, when we run the T-test for each Lot sample against the population mean, we do find that they each have a low p-Value and we should reject the Null Hypothesis.
