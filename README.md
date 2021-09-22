@@ -38,3 +38,8 @@ Statistical Analysis with R in a Manufacturing Environment
 ![image](https://user-images.githubusercontent.com/84824391/134115312-b8662e65-480e-444a-a689-61cbf2845a4b.png)
 
 - But just because the entire sample has a small p-Value, does not mean that each Lot split up may be too. However, when we run the T-test for each Lot sample against the population mean, we do find that they each have a low p-Value and we should reject the Null Hypothesis.
+
+
+## Study Design: MechaCar vs Competition
+
+- The MechaCar is a desirable car for consumers in a metropolitan market. It's desirable because its city/highway fuel efficiency, maintenance cost and safety rating are best in class for the price of a new vehicle. In order to demonstrate this to the consumer and industry, we will want to collect the fuel efficiency, maintenance cost, safety rating and price. Our null hypothesis would state that given the MechaCar's fuel efficiency, maintenance cost, and safety rating, its price is not significantly different than its direct competitors. We would use a multiple linear regression to determine the price based upon the prevously stated metrics because we are utitilizing multiple data sources to test our hypothesis. In order to run this statistical test, we will want to collect the EPA's stated fuel efficiency, Consumer Reports cost of car ownership per model and the IHS satefy rating. In addition, we will want to collect the average retail price across all major markets in the US. 
